@@ -1,0 +1,730 @@
+Initializing hash maps...
+Generating test 196607 test keys...done
+Running tests
+
+
+**************************************************
+Starting test series:
+    Hashmap w/randomized string keys
+**************************************************
+
+
+**************************************************
+Test 01: put performance
+    Description: put new hash keys
+
+Running...
+Completed successfully
+Run time: 150536 microseconds
+Hashmap stats: put performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4850
+    Collisions variance: 16.6439
+
+**************************************************
+Test 02: put existing performance
+    Description: attempt to put existing hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 40227 microseconds
+Hashmap stats: put existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4850
+    Collisions variance: 16.6439
+
+**************************************************
+Test 03: get existing performance
+    Description: get existing hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 32379 microseconds
+Hashmap stats: get existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4850
+    Collisions variance: 16.6439
+
+**************************************************
+Test 04: get non-existing performance
+    Description: get nonexistent hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 15437 microseconds
+Hashmap stats: get non-existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4850
+    Collisions variance: 16.6439
+
+**************************************************
+Test 05: remove performance
+    Description: remove hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 125989 microseconds
+Hashmap stats: remove performance
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 06: mixed put/remove performance
+    Description: put, remove 1/2, then put them back
+
+Running...
+Hashmap stats: test_put_remove done
+    # entries:           98304
+    Table size:          262144
+    Load factor:         0.3750
+    Collisions mean:     0.3012
+    Collisions variance: 0.6454
+Completed successfully
+Run time: 360864 microseconds
+Hashmap stats: mixed put/remove performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4850
+    Collisions variance: 16.5288
+
+**************************************************
+Test 07: iterate performance
+    Description: iterate through entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 1371 microseconds
+Hashmap stats: iterate performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4850
+    Collisions variance: 16.6439
+
+**************************************************
+Test 08: iterate remove all
+    Description: iterate and remove all entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 122622 microseconds
+Hashmap stats: iterate remove all
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 09: iterate remove odd indices
+    Description: iterate and delete alternate entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 69659 microseconds
+Hashmap stats: iterate remove odd indices
+    # entries:           98303
+    Table size:          262144
+    Load factor:         0.3750
+    Collisions mean:     0.1905
+    Collisions variance: 0.2781
+
+**************************************************
+Test 10: clear performance
+    Description: clear entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 144 microseconds
+Hashmap stats: clear performance
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 11: reset performance
+    Description: reset entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 139 microseconds
+Hashmap stats: reset performance
+    # entries:           0
+    Table size:          128
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test results:
+    Passed: 11
+    Failed: 0
+**************************************************
+
+**************************************************
+Starting test series:
+    Hashmap w/sequential string keys
+**************************************************
+
+
+**************************************************
+Test 01: put performance
+    Description: put new hash keys
+
+Running...
+Completed successfully
+Run time: 143898 microseconds
+Hashmap stats: put performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5169
+    Collisions variance: 18.4414
+
+**************************************************
+Test 02: put existing performance
+    Description: attempt to put existing hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 28624 microseconds
+Hashmap stats: put existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5169
+    Collisions variance: 18.4414
+
+**************************************************
+Test 03: get existing performance
+    Description: get existing hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 28992 microseconds
+Hashmap stats: get existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5169
+    Collisions variance: 18.4414
+
+**************************************************
+Test 04: get non-existing performance
+    Description: get nonexistent hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 12842 microseconds
+Hashmap stats: get non-existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5169
+    Collisions variance: 18.4414
+
+**************************************************
+Test 05: remove performance
+    Description: remove hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 110780 microseconds
+Hashmap stats: remove performance
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 06: mixed put/remove performance
+    Description: put, remove 1/2, then put them back
+
+Running...
+Hashmap stats: test_put_remove done
+    # entries:           98304
+    Table size:          262144
+    Load factor:         0.3750
+    Collisions mean:     0.3013
+    Collisions variance: 0.6478
+Completed successfully
+Run time: 313450 microseconds
+Hashmap stats: mixed put/remove performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5169
+    Collisions variance: 18.0948
+
+**************************************************
+Test 07: iterate performance
+    Description: iterate through entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 1342 microseconds
+Hashmap stats: iterate performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5169
+    Collisions variance: 18.4414
+
+**************************************************
+Test 08: iterate remove all
+    Description: iterate and remove all entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 112040 microseconds
+Hashmap stats: iterate remove all
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 09: iterate remove odd indices
+    Description: iterate and delete alternate entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 64326 microseconds
+Hashmap stats: iterate remove odd indices
+    # entries:           98304
+    Table size:          262144
+    Load factor:         0.3750
+    Collisions mean:     0.1915
+    Collisions variance: 0.2849
+
+**************************************************
+Test 10: clear performance
+    Description: clear entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 139 microseconds
+Hashmap stats: clear performance
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 11: reset performance
+    Description: reset entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 144 microseconds
+Hashmap stats: reset performance
+    # entries:           0
+    Table size:          128
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test results:
+    Passed: 11
+    Failed: 0
+**************************************************
+
+**************************************************
+Starting test series:
+    Hashmap w/randomized integer keys
+**************************************************
+
+
+**************************************************
+Test 01: put performance
+    Description: put new hash keys
+
+Running...
+Completed successfully
+Run time: 129061 microseconds
+Hashmap stats: put performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4777
+    Collisions variance: 15.8930
+
+**************************************************
+Test 02: put existing performance
+    Description: attempt to put existing hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 19906 microseconds
+Hashmap stats: put existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4777
+    Collisions variance: 15.8930
+
+**************************************************
+Test 03: get existing performance
+    Description: get existing hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 20322 microseconds
+Hashmap stats: get existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4777
+    Collisions variance: 15.8930
+
+**************************************************
+Test 04: get non-existing performance
+    Description: get nonexistent hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 6168 microseconds
+Hashmap stats: get non-existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4777
+    Collisions variance: 15.8930
+
+**************************************************
+Test 05: remove performance
+    Description: remove hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 69347 microseconds
+Hashmap stats: remove performance
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 06: mixed put/remove performance
+    Description: put, remove 1/2, then put them back
+
+Running...
+Hashmap stats: test_put_remove done
+    # entries:           98304
+    Table size:          262144
+    Load factor:         0.3750
+    Collisions mean:     0.3025
+    Collisions variance: 0.6594
+Completed successfully
+Run time: 257324 microseconds
+Hashmap stats: mixed put/remove performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4777
+    Collisions variance: 15.9128
+
+**************************************************
+Test 07: iterate performance
+    Description: iterate through entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 1356 microseconds
+Hashmap stats: iterate performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.4777
+    Collisions variance: 15.8930
+
+**************************************************
+Test 08: iterate remove all
+    Description: iterate and remove all entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 62885 microseconds
+Hashmap stats: iterate remove all
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 09: iterate remove odd indices
+    Description: iterate and delete alternate entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 37368 microseconds
+Hashmap stats: iterate remove odd indices
+    # entries:           98304
+    Table size:          262144
+    Load factor:         0.3750
+    Collisions mean:     0.1918
+    Collisions variance: 0.2816
+
+**************************************************
+Test 10: clear performance
+    Description: clear entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 156 microseconds
+Hashmap stats: clear performance
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 11: reset performance
+    Description: reset entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 145 microseconds
+Hashmap stats: reset performance
+    # entries:           0
+    Table size:          128
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test results:
+    Passed: 11
+    Failed: 0
+**************************************************
+
+**************************************************
+Starting test series:
+    Hashmap w/sequential integer keys
+**************************************************
+
+
+**************************************************
+Test 01: put performance
+    Description: put new hash keys
+
+Running...
+Completed successfully
+Run time: 126969 microseconds
+Hashmap stats: put performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5227
+    Collisions variance: 18.7318
+
+**************************************************
+Test 02: put existing performance
+    Description: attempt to put existing hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 20069 microseconds
+Hashmap stats: put existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5227
+    Collisions variance: 18.7318
+
+**************************************************
+Test 03: get existing performance
+    Description: get existing hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 20910 microseconds
+Hashmap stats: get existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5227
+    Collisions variance: 18.7318
+
+**************************************************
+Test 04: get non-existing performance
+    Description: get nonexistent hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 2032 microseconds
+Hashmap stats: get non-existing performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5227
+    Collisions variance: 18.7318
+
+**************************************************
+Test 05: remove performance
+    Description: remove hash keys
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 71958 microseconds
+Hashmap stats: remove performance
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 06: mixed put/remove performance
+    Description: put, remove 1/2, then put them back
+
+Running...
+Hashmap stats: test_put_remove done
+    # entries:           98304
+    Table size:          262144
+    Load factor:         0.3750
+    Collisions mean:     0.3077
+    Collisions variance: 0.6819
+Completed successfully
+Run time: 267097 microseconds
+Hashmap stats: mixed put/remove performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5227
+    Collisions variance: 18.5322
+
+**************************************************
+Test 07: iterate performance
+    Description: iterate through entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 1369 microseconds
+Hashmap stats: iterate performance
+    # entries:           196607
+    Table size:          262144
+    Load factor:         0.7500
+    Collisions mean:     1.5227
+    Collisions variance: 18.7318
+
+**************************************************
+Test 08: iterate remove all
+    Description: iterate and remove all entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 63209 microseconds
+Hashmap stats: iterate remove all
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 09: iterate remove odd indices
+    Description: iterate and delete alternate entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 37602 microseconds
+Hashmap stats: iterate remove odd indices
+    # entries:           98304
+    Table size:          262144
+    Load factor:         0.3750
+    Collisions mean:     0.1928
+    Collisions variance: 0.2849
+
+**************************************************
+Test 10: clear performance
+    Description: clear entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 156 microseconds
+Hashmap stats: clear performance
+    # entries:           0
+    Table size:          262144
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test 11: reset performance
+    Description: reset entries
+
+Pre-loading keys...done
+Running...
+Completed successfully
+Run time: 143 microseconds
+Hashmap stats: reset performance
+    # entries:           0
+    Table size:          128
+    Load factor:         0.0000
+    Collisions mean:     0.0000
+    Collisions variance: 0.0000
+
+**************************************************
+Test results:
+    Passed: 11
+    Failed: 0
+**************************************************
+
+Tests finished
