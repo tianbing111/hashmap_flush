@@ -13,8 +13,9 @@ This project uses CMake to orchestrate the build and installallation process. To
 * `HASHMAP_BUILD_EXAMPLES` - Set to `ON` to build example code. 
 
 ##### Put Performence
-Type	Runtime
-No_Flush	77220ms
-Flush_10	150176ms
-Flush_500	351451ms
-Flush_1000	561014ms
+|  Type   | Runtime  |
+|  ----  | ----  |
+| No_Flush  | 77220ms |
+| Flush_10  | 150176ms |
+| Flush_500  | 351451ms |
+| Flush_1000  | 561014ms |
