@@ -1,3 +1,4 @@
+Here is one of my class files
 ## How to Build and Install
 This project uses CMake to orchestrate the build and installallation process. To build and install on your host system, follow these easy steps:
 1. `git clone https://github.com/DavidLeeds/hashmap.git` - download the source
